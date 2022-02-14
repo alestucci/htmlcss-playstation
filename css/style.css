@@ -1,3 +1,18 @@
-.logo-small {
+.w-80px {
     width: 80px;
-    }
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.mt-116px {
+    margin-top: 116px;
+}
+
+.jumbotron {
+    height: 586px;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-position: right;
+}
+
