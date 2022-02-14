@@ -10,10 +10,18 @@
     margin-top: 116px;
 }
 
-.jumbotron {
+.jumbo-1 {
     height: 586px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
 }
+
+.jumbo-2 {
+    height: 586px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
