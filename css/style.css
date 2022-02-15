@@ -35,3 +35,32 @@
 footer {
     background-color: #00439C;
 }
+
+.submenu::before {
+    content: "\25CF";
+    color: blue;
+    font-size: 8px;
+    padding-right: 1.5em;
+    vertical-align: middle;
+}
+
+.dropdown-chevron::after {
+    content: url(../img/chevron-down-solid.svg);
+    width: .7em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dropdown-chevron:active::after {
+    content: url(../img/chevron-down-solid.svg);
+    width: .7em;
+    display: inline-block;
+    vertical-align: middle;
+    transform: rotate(180deg);
+}
+
+header li:not(:first-child),
+header li:not(:last-child) {
+    padding-left: .2em;
+    padding-right: .2em;
+}
