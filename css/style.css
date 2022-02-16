@@ -10,6 +10,10 @@
     margin-top: 116px;
 }
 
+.h-2em {
+    height: 2em;
+}
+
 .jumbo-1 {
     height: 586px;
     background-image: url(../img/jumbo-bg.png);
@@ -20,7 +24,7 @@
 .jumbo-2 {
     height: 586px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center;
+    background-position: left;
     background-size: cover;
 }
 
@@ -36,12 +40,17 @@ footer {
     background-color: #00439C;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .submenu::before {
     content: "\25CF";
     color: blue;
-    font-size: 8px;
+    font-size: 10px;
     padding-right: 1.5em;
-    vertical-align: middle;
+    line-height: 2em;
+    vertical-align: text-top;
 }
 
 .dropdown-chevron::after {
@@ -63,4 +72,46 @@ header li:not(:first-child),
 header li:not(:last-child) {
     padding-left: .2em;
     padding-right: .2em;
+}
+
+.brd-radius-20 {
+    border-radius: 20px;
+}
+
+.border-primary-padding {
+    padding: 4px;
+    border: 3px solid #0d6efd;
+}
+
+/* ----------- HOVER ------------ */
+.hover1:hover {
+    opacity: 100% !important;
+    border-bottom: 4px solid #0d6efd !important;
+    transition: all .3s;
+}
+
+.hover1:active {
+    opacity: 100% !important;
+    border-bottom: 4px solid #0d6efd !important;
+}
+
+.btn-dark-inline-border-white:hover {
+    box-shadow: inset 0px 0px 0px 2px #212529, inset 0px 0px 0px 4px white;
+}
+
+.btn-danger-inline-border-dark:hover {
+    box-shadow: inset 0px 0px 0px 2px #bb2d3b, inset 0px 0px 0px 4px #212529;
+}
+
+.btn-primary-inline-border-white:hover {
+    box-shadow: inset 0px 0px 0px 2px #0d6efd, inset 0px 0px 0px 4px white;
+}
+
+.btn-light-inline-border-black:hover {
+    box-shadow: inset 0px 0px 0px 2px #f8f9fa, inset 0px 0px 0px 4px black;
+}
+
+.hover-up:hover {
+    transform: translate(0, -30px);
+    transition: transform  .5s;
 }
