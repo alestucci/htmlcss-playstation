@@ -142,6 +142,6 @@ footer a.d-block {
 }
 
 .hover-up:hover {
-    transform: translate(0, -30px);
+    transform: translate(0, -20px);
     transition: all .5s;
 }
