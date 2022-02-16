@@ -2,16 +2,32 @@
     width: 80px;
 }
 
+.w-100px {
+    width: 100px;
+}
+
+.w-140px {
+    width: 140px;
+}
+
 .w-200px {
     width: 200px;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 .mt-116px {
     margin-top: 116px;
 }
 
-.h-2em {
-    height: 2em;
+.h-1-5em {
+    height: 1.5em;
+}
+
+.fs-lpx {
+    font-size: .85rem;
 }
 
 .jumbo-1 {
@@ -22,9 +38,9 @@
 }
 
 .jumbo-2 {
-    height: 586px;
+    height: 620px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: left;
+    background-position: center;
     background-size: cover;
 }
 
@@ -70,8 +86,8 @@ footer {
 
 header li:not(:first-child),
 header li:not(:last-child) {
-    padding-left: .2em;
-    padding-right: .2em;
+    margin-left: .15em;
+    margin-right: .15em;
 }
 
 .brd-radius-20 {
@@ -82,6 +98,12 @@ header li:not(:last-child) {
     padding: 4px;
     border: 3px solid #0d6efd;
 }
+
+footer a.d-block {
+    font-size: .9rem;
+    padding-top: .8em;
+}
+
 
 /* ----------- HOVER ------------ */
 .list-shadow:hover {
@@ -94,13 +116,13 @@ header li:not(:last-child) {
 
 .hover1:hover {
     opacity: 100% !important;
-    border-bottom: 4px solid #0d6efd !important;
+    border-bottom: 2px solid #0d6efd !important;
     transition: all .3s;
 }
 
 .hover1:focus {
     opacity: 100% !important;
-    border-bottom: 4px solid #0d6efd !important;
+    border-bottom: 2px solid #0d6efd !important;
 }
 
 .btn-dark-inline-border-white:hover {
