@@ -101,7 +101,7 @@ footer {
     vertical-align: middle;
 }
 
-.show .dropdown-chevron::after {
+.show.dropdown-chevron::after {
     content: url(../img/chevron-down-solid.svg);
     width: .7em;
     display: inline-block;
