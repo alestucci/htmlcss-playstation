@@ -1,3 +1,4 @@
+/* ----------- WIDTHS & HEIGHTS ------------ */
 .w-80px {
     width: 80px;
 }
@@ -30,6 +31,30 @@
     font-size: .85rem;
 }
 
+
+/* ----------- MARGINS & PADDINGS ------------ */
+header li:not(:first-child),
+header li:not(:last-child) {
+    margin-left: .15em;
+    margin-right: .15em;
+}
+
+.brd-radius-20 {
+    border-radius: 20px;
+}
+
+.border-primary-padding {
+    padding: 4px;
+    border: 3px solid #0d6efd;
+}
+
+footer a.d-block {
+    font-size: .9rem;
+    padding-top: .8em;
+}
+
+
+/* ----------- ITEMS ------------ */
 .jumbo-1 {
     height: 586px;
     background-image: url(../img/jumbo-bg.png);
@@ -76,7 +101,7 @@ footer {
     vertical-align: middle;
 }
 
-.dropdown-chevron:active::after {
+.show .dropdown-chevron::after {
     content: url(../img/chevron-down-solid.svg);
     width: .7em;
     display: inline-block;
@@ -84,34 +109,24 @@ footer {
     transform: rotate(180deg);
 }
 
-header li:not(:first-child),
-header li:not(:last-child) {
-    margin-left: .15em;
-    margin-right: .15em;
-}
-
-.brd-radius-20 {
-    border-radius: 20px;
-}
-
-.border-primary-padding {
-    padding: 4px;
-    border: 3px solid #0d6efd;
-}
-
-footer a.d-block {
-    font-size: .9rem;
-    padding-top: .8em;
+.btn-sand {
+    background-color: #d9dadc;
 }
 
 
-/* ----------- HOVER ------------ */
+/* ----------- EFFECTS ------------ */
 .list-shadow:hover {
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
 }
 
 .submenu:hover {
     color: #0d6efd !important;
+}
+
+header .btn:focus,
+header .btn-dark:focus:active,
+header .btn-dark:active {
+    box-shadow: none;
 }
 
 .hover1:hover {
@@ -139,6 +154,10 @@ footer a.d-block {
 
 .btn-light-inline-border-black:hover {
     box-shadow: inset 0px 0px 0px 2px #f8f9fa, inset 0px 0px 0px 4px black;
+}
+
+.btn-sand-inline-border-white:hover {
+    box-shadow: inset 0px 0px 0px 2px #d9dadc, inset 0px 0px 0px 4px white;
 }
 
 .hover-up:hover {
